@@ -1,0 +1,25 @@
+canvas
+{
+    animation-name: bni;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+    
+}
+
+
+@keyframes  bni{
+
+    from{box-shadow:  5px 5px 55px red; }
+    to{box-shadow: 5px 5px 55px blue;}
+}
+
+#my_footer
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    bottom: 60px;
+}
